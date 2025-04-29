@@ -1,4 +1,3 @@
-// ✅ Main_GUI_screen.java
 package Paper_logger;
 
 import javax.swing.*;
@@ -37,7 +36,9 @@ public class Main_GUI_screen extends JFrame {
 
         JPanel commentPanel = new JPanel(new BorderLayout());
         commentPanel.setOpaque(false);
-        commentPanel.add(new JLabel("Comment:"), BorderLayout.NORTH);
+        JLabel commentLabel = new JLabel("Comment:");
+        commentLabel.setForeground(Color.WHITE);
+        commentPanel.add(commentLabel, BorderLayout.NORTH);
         commentPanel.add(new JScrollPane(commentArea), BorderLayout.CENTER);
         formPanel.add(commentPanel);
 
@@ -111,20 +112,21 @@ public class Main_GUI_screen extends JFrame {
     }
 
     private JPanel createLabeledRow(String labelText, JTextField textField) {
-        JPanel panel = new JPanel(new BorderLayout());
-        panel.setOpaque(false);
+    JPanel panel = new JPanel(new BorderLayout());
+    panel.setOpaque(false);
 
-        JLabel label = new JLabel(labelText);
-        label.setHorizontalAlignment(SwingConstants.RIGHT);
-        JPanel labelPanel = new JPanel(new BorderLayout());
-        labelPanel.setOpaque(false);
-        labelPanel.add(label, BorderLayout.EAST);
-        labelPanel.setPreferredSize(new Dimension(250, 30));
+    JLabel label = new JLabel("<html>" + labelText + "</html>");
+        label.setForeground(Color.WHITE);
+    label.setHorizontalAlignment(SwingConstants.RIGHT);
+    JPanel labelPanel = new JPanel(new BorderLayout());
+    labelPanel.setOpaque(false);
+    labelPanel.add(label, BorderLayout.EAST);
+    labelPanel.setPreferredSize(new Dimension(250, 30));
 
-        panel.add(labelPanel, BorderLayout.WEST);
-        panel.add(textField, BorderLayout.CENTER);
-        return panel;
-    }
+    panel.add(labelPanel, BorderLayout.WEST);
+    panel.add(textField, BorderLayout.CENTER);
+    return panel;
+}
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(Main_GUI_screen::new);
