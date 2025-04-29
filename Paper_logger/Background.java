@@ -8,7 +8,7 @@ public class Background extends JPanel {
     private final Image backgroundImage;
 
     public Background() {
-        backgroundImage = new ImageIcon("Paper/990.jpg").getImage();
+        backgroundImage = new ImageIcon("Making library resources/Your favorite Picture").getImage();
     }
 
     @Override
