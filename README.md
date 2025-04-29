@@ -2,10 +2,17 @@
 
 Paper Logger is a simple and clean Java Swing application that lets you log academic papers and save them to a CSV file with ease. The interface features a custom background image, right-aligned labels, and supports both year-only and full-date formats.
 
-[Before]<img width="699" alt="Screenshot 0007-04-29 at 16 10 38" src="https://github.com/user-attachments/assets/817a5780-3e6f-463d-b3db-61d5e376d680" />
+[Before]
 
-[After] <img width="807" alt="Screenshot 0007-04-29 at 16 16 29" src="https://github.com/user-attachments/assets/361682d0-4515-490f-b403-43c51cc12154" />
+<img width="699" alt="Screenshot 0007-04-29 at 16 10 38" src="https://github.com/user-attachments/assets/817a5780-3e6f-463d-b3db-61d5e376d680" />
 
+[After] 
+
+<img width="807" alt="Screenshot 0007-04-29 at 16 16 29" src="https://github.com/user-attachments/assets/361682d0-4515-490f-b403-43c51cc12154" />
+
+[After 2] Final Version 
+
+<img width="801" alt="Screenshot 0007-04-29 at 16 43 17" src="https://github.com/user-attachments/assets/4fe8a257-dc7b-427e-82a0-1672a6acf011" />
 
 ---
 
