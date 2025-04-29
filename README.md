@@ -26,7 +26,7 @@ Paper Logger is a simple and clean Java Swing application that lets you log acad
   - Comments
 - **SAVE** button writes the entry to `papers.csv`
 - **OPEN** button launches `papers.csv` in the system's default CSV viewer (e.g., Excel)
-- Background image support via `Paper/Your favorite Picture`
+- Background image support via `Your designated file/Your favorite Picture`
 - **Handles commas and quotes inside fields properly** using CSV escape rules
 - Loads saved CSV data on launch (for internal use)
 
